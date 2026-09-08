@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+pets/
+!ark-deskpet-skill/assets/deskpet-app/pets/
+!ark-deskpet-skill/assets/deskpet-app/pets/**
+work/
+*.log
+*.pid
+*.flag
+
+# Codex 版旧 git 历史备份（本地保留，不上传）
+.git-codex-archive/

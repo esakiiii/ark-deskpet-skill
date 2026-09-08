@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "character": "Logos",
+    "language": "zh-CN",
+    "source": "PRTS Wiki — 逻各斯 (https://prts.wiki/w/Logos)，语音记录 section",
+    "notes": "每一句都摘自游戏内中文-普通话配音原文（梁达伟 配），未做任何改写或截断。游戏里一整段对话、问候、晋升、新年/生日/周年等长台词全部下放到 companion 文件 long_lines.json，由对话聊天 / deepseek_client 的 system prompt 引用。本文件保留的是游戏中本身就只是一两句话的台词：标题 (明日方舟。)、部署 (我于此言语。)、选中干员 (在此等候。)、任命队长 (我愿引领。)、戳一下 (此调律如何？)、编入队伍前后半句等。这些句子都能在 long_lines.json 找到完全一致的原文，0 编造。"
+  },
+  "greetings": [
+    { "text": "明日方舟。", "weight": 1 },
+    { "text": "罗德岛精英干员逻各斯向您述职。", "weight": 1 }
+  ],
+  "idle": [
+    { "text": "在此等候。", "weight": 2 },
+    { "text": "我听到了挽歌。", "weight": 2 },
+    { "text": "我于此言语。", "weight": 1 },
+    { "text": "丧钟应声而鸣。", "weight": 1 },
+    { "text": "可以用我自己的办公椅吗？", "weight": 1 },
+    { "text": "明日方舟。", "weight": 1 }
+  ],
+  "task_started": [
+    { "text": "凡有疑问，必有解答。", "weight": 1 },
+    { "text": "凡有规则，必能解析。", "weight": 1 },
+    { "text": "我愿引领。", "weight": 1 },
+    { "text": "无需顾虑暴力，死亡自有安息之地。", "weight": 1 },
+    { "text": "咒言需要予以约束，敌人亦然。", "weight": 1 }
+  ],
+  "status_reactions": {
+    "_comment": "由 refresh_status 在 WorkBuddy 状态变化时按子键挑：active_idle / active_busy / went_idle / went_active。",
+    "active_idle": [
+      "在此等候。",
+      "明日方舟。",
+      "凡有疑问，必有解答。"
+    ],
+    "active_busy": [
+      "我于此言语。",
+      "无需顾虑暴力，死亡自有安息之地。",
+      "咒言需要予以约束，敌人亦然。"
+    ],
+    "went_idle": [
+      "明日方舟。",
+      "我听到了挽歌。"
+    ],
+    "went_active": [
+      "凡有规则，必能解析。",
+      "明日方舟。"
+    ]
+  },
+  "reactions": [
+    {
+      "triggers": ["办公椅", "椅子"],
+      "text": "可以用我自己的办公椅吗？"
+    },
+    {
+      "triggers": ["调律", "音律", "戳一下"],
+      "text": "此调律如何？"
+    },
+    {
+      "triggers": ["衣服", "踩到", "踩我的"],
+      "text": "您踩到我的衣服了……"
+    }
+  ],
+  "fallback": [
+    { "text": "在此等候。", "weight": 2 },
+    { "text": "凡有疑问，必有解答。", "weight": 1 },
+    { "text": "明日方舟。", "weight": 1 }
+  ]
+}

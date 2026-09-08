@@ -1,0 +1,276 @@
+{
+  "_meta": {
+    "character": "Logos",
+    "source": "PRTS Wiki (https://prts.wiki/w/Logos) — 语音记录 section",
+    "language": "zh-CN",
+    "purpose": "备用台词池。被 deepseek_client 的 system prompt 在聊天上下文里引用，但不直接喂给气泡。dialogue.json 只取其中的短句。"
+  },
+  "lines": [
+    {
+      "index": "1",
+      "title": "任命助理",
+      "place": "HOME_PLACE",
+      "text": "这些档案上的加密咒文均已解除，除了一本名册上的咒言过于繁琐难以完全消除外，其余的均可放心翻阅。不过，博士，您为何自刚才起便缄默不言？",
+      "bucket": "long_home_chat"
+    },
+    {
+      "index": "2",
+      "title": "交谈1",
+      "place": "HOME_SHOW",
+      "text": "被难住？不，我只是在思考如何更快破解Mechanist留下的这道程序谜题罢了。不过他的精妙设计令我在咒术谜题的构想上产生了新的灵感。博士，您也想加入竞赛吗？",
+      "bucket": "long_home_chat"
+    },
+    {
+      "index": "3",
+      "title": "交谈2",
+      "place": "HOME_SHOW",
+      "text": "“雾吻旅人之唇，水浪抚摸灵魂”，河谷的生活便是如此。您还有疑惑未得解答？何为“女主人”？……看来您已经见过我那些热情的姐妹了。对女妖之主的传统称呼，我并不全然拒斥。",
+      "bucket": "long_home_chat"
+    },
+    {
+      "index": "4",
+      "title": "交谈3",
+      "place": "HOME_SHOW",
+      "text": "“语言”的力量来自规则，来自约束，而非肆意的想象。唯有自我设定规则，才可于咒术上精进。知晓此义，便足以令咒术实力一夜之间超越我们的血脉天赋。",
+      "bucket": "long_home_chat"
+    },
+    {
+      "index": "5",
+      "title": "晋升后交谈1",
+      "place": "HOME_SHOW",
+      "text": "众魂已然远去，可我们的灵魂仍需安息。若死者前往彼岸途中需要指引，我愿成为萨卡兹的摆渡人……现在的我远远做不到为这片大地上每位逝去的同胞唱响挽歌，但我不会放弃。",
+      "bucket": "long_home_chat"
+    },
+    {
+      "index": "6",
+      "title": "晋升后交谈2",
+      "place": "HOME_SHOW",
+      "text": "那个恐吓“魔王”的预言？阿米娅和罗德岛既已跨越了过去，战胜命运的希望便未断绝。博士，我可于此立誓——有我在，预言便无从奴役我们。",
+      "bucket": "long_home_chat"
+    },
+    {
+      "index": "7",
+      "title": "信赖提升后交谈1",
+      "place": "HOME_SHOW",
+      "text": "博士发现了？我常服上的纹饰的确是我亲手刻印的咒文。寻常织物难以承受，只好拜托后勤部同事费心改造了河谷的纱织。这顶打算赠您的睡帽也以同一工艺制成，我额外为您刻印了助眠的咒文。",
+      "bucket": "long_home_chat"
+    },
+    {
+      "index": "8",
+      "title": "信赖提升后交谈2",
+      "place": "HOME_SHOW",
+      "text": "知晓当年的真相后，您已拜访过许多同僚，我猜到您也会来见我。我？我对您无恨。博士，阿米娅向我提及噩梦在追逐您，我可为您驱散噩梦。",
+      "bucket": "long_home_chat"
+    },
+    {
+      "index": "9",
+      "title": "信赖提升后交谈3",
+      "place": "HOME_SHOW",
+      "text": "同一咒言，诠释随心，效法可有千变。既然语义有千解，名字亦然。博士，我很期待，若您现在再将自己的名字写进咒言之中，又会为此术式带来何种变化呢？",
+      "bucket": "long_home_chat"
+    },
+    {
+      "index": "10",
+      "title": "闲置",
+      "place": "HOME_WAIT",
+      "text": "眼罩？不必，这顶“女妖王冠”足以遮挡双目助我入眠，其中更蕴藏了“不可触碰”的禁忌咒言——晕过去了？那好好休息吧，博士。",
+      "bucket": "long_idle"
+    },
+    {
+      "index": "11",
+      "title": "干员报到",
+      "place": "GACHA",
+      "text": "罗德岛精英干员逻各斯向您述职。我想仪式还是正式点好些，过程虽繁琐——博士，您不会又想提前离开吧？",
+      "bucket": "long_gacha"
+    },
+    {
+      "index": "12",
+      "title": "观看作战记录",
+      "place": "LEVEL_UP",
+      "text": "这场战斗曾给予我不少编织韵律的灵感。",
+      "bucket": "long_battle_review"
+    },
+    {
+      "index": "13",
+      "title": "精英化晋升1",
+      "place": "EVOLVE_ONE",
+      "text": "抱歉在这么重要的场合迟到，现在是何环节？脸红？唔，看来和Mechanist一起研究的“宿醉消失”咒言仍有纰漏。",
+      "bucket": "long_evolve"
+    },
+    {
+      "index": "14",
+      "title": "精英化晋升2",
+      "place": "EVOLVE_TWO",
+      "text": "“跨越死亡，迎接更平等的愿景……”精英干员从未以血脉许下誓言，但无一不以生命践行理想。我们并肩走到现在，已是难得，博士。",
+      "bucket": "long_evolve"
+    },
+    {
+      "index": "17",
+      "title": "编入队伍",
+      "place": "SQUAD",
+      "text": "凡有疑问，必有解答。凡有规则，必能解析。",
+      "bucket": "long_squad"
+    },
+    {
+      "index": "18",
+      "title": "任命队长",
+      "place": "SQUAD_FIRST",
+      "text": "我愿引领。",
+      "bucket": "long_lead"
+    },
+    {
+      "index": "19",
+      "title": "行动出发",
+      "place": "BATTLE_START",
+      "text": "无需顾虑暴力，死亡自有安息之地。",
+      "bucket": "long_battle"
+    },
+    {
+      "index": "20",
+      "title": "行动开始",
+      "place": "BATTLE_FACE_ENEMY",
+      "text": "咒言需要予以约束，敌人亦然。",
+      "bucket": "long_battle"
+    },
+    {
+      "index": "21",
+      "title": "选中干员1",
+      "place": "BATTLE_SELECT",
+      "text": "在此等候。",
+      "bucket": "short_select"
+    },
+    {
+      "index": "22",
+      "title": "选中干员2",
+      "place": "BATTLE_SELECT",
+      "text": "我听到了挽歌。",
+      "bucket": "short_select"
+    },
+    {
+      "index": "23",
+      "title": "部署1",
+      "place": "BATTLE_PLACE",
+      "text": "我于此言语。",
+      "bucket": "short_deploy"
+    },
+    {
+      "index": "24",
+      "title": "部署2",
+      "place": "BATTLE_PLACE",
+      "text": "丧钟应声而鸣。",
+      "bucket": "short_deploy"
+    },
+    {
+      "index": "25",
+      "title": "作战中1",
+      "place": "BATTLE_SKILL_1",
+      "text": "“面纱，命运帷幕。”",
+      "bucket": "short_skill"
+    },
+    {
+      "index": "26",
+      "title": "作战中2",
+      "place": "BATTLE_SKILL_2",
+      "text": "“晨星，智识启明。”",
+      "bucket": "short_skill"
+    },
+    {
+      "index": "27",
+      "title": "作战中3",
+      "place": "BATTLE_SKILL_3",
+      "text": "“魂河，彼岸摆渡。”",
+      "bucket": "short_skill"
+    },
+    {
+      "index": "28",
+      "title": "作战中4",
+      "place": "BATTLE_SKILL_4",
+      "text": "“句点，终焉扭转。”",
+      "bucket": "short_skill"
+    },
+    {
+      "index": "29",
+      "title": "完成高难行动",
+      "place": "FOUR_STAR",
+      "text": "加入我们的庆祝吧，博士，您此刻的喜悦足以点缀我的咒言。",
+      "bucket": "long_victory_hard"
+    },
+    {
+      "index": "30",
+      "title": "3星结束行动",
+      "place": "THREE_STAR",
+      "text": "我落下的每句咒文皆有用处，言语的一字一词亦无落空。精妙的配合，博士。",
+      "bucket": "long_victory"
+    },
+    {
+      "index": "31",
+      "title": "非3星结束行动",
+      "place": "TWO_STAR",
+      "text": "愤懑者尚未安息，我依旧能捕获遥远彼处的哭泣……终有一日，死者亦可安眠，博士，会有那么一天的。我相信。",
+      "bucket": "long_victory_hard"
+    },
+    {
+      "index": "32",
+      "title": "行动失败",
+      "place": "LOSE",
+      "text": "撤退，“帷幕”可遮掩你们的踪迹。",
+      "bucket": "long_defeat"
+    },
+    {
+      "index": "33",
+      "title": "进驻设施",
+      "place": "BUILDING_PLACE",
+      "text": "可以用我自己的办公椅吗？",
+      "bucket": "long_building"
+    },
+    {
+      "index": "34",
+      "title": "戳一下",
+      "place": "BUILDING_TOUCHING",
+      "text": "此调律如何？",
+      "bucket": "short_touch"
+    },
+    {
+      "index": "36",
+      "title": "信赖触摸",
+      "place": "BUILDING_FAVOR_BUBBLE",
+      "text": "您踩到我的衣服了……",
+      "bucket": "short_trust_touch"
+    },
+    {
+      "index": "37",
+      "title": "标题",
+      "place": "LOADING_PANEL",
+      "text": "明日方舟。",
+      "bucket": "short_title"
+    },
+    {
+      "index": "38",
+      "title": "新年祝福",
+      "place": "NEW_YEAR",
+      "text": "母亲替我捎来了河谷的芦苇，我用歌声与咒文缠绕，将其首尾相连，编为项链。它会在旧年的夜晚干枯，又在新年的清晨萌芽，寄托新生的祝福。赠您，新年快乐。",
+      "bucket": "long_newyear"
+    },
+    {
+      "index": "42",
+      "title": "问候",
+      "place": "GREETING",
+      "text": "博士，是我的哨音惊扰了您吗？不是便好。这首曲子的名字？无名，只是闲暇时的即兴之作罢了。",
+      "bucket": "long_greeting"
+    },
+    {
+      "index": "43",
+      "title": "生日",
+      "place": "BIRTHDAY",
+      "text": "生日快乐，博士，这是我将祝福赠予您的第几个年头了？您也不记得了吗……有时，遗忘亦是幸福，过往之事已不重要。只需记住，明年此刻我依旧会在此。",
+      "bucket": "long_birthday"
+    },
+    {
+      "index": "44",
+      "title": "周年庆典",
+      "place": "ANNIVERSARY",
+      "text": "我最初作为求学的游子来到这里，尽管罗德岛如今再难寻到往日痕迹，但希望仍在。我们跨过了旧日的梦魇，至于未来该行往何处，想必您已经了然于心了吧。",
+      "bucket": "long_anniversary"
+    }
+  ]
+}
