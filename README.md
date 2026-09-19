@@ -1,6 +1,6 @@
 # Ark Deskpet Skill (WorkBuddy 版)
 
-给干员做一个透明桌面桌宠（Codex 风格的"屏保小人"），并让 WorkBuddy 来当
+给干员做一个透明桌面桌宠，并让 WorkBuddy 来当
 宿主：WorkBuddy 在就显示，关掉就一起退。原版（Codex 绑定）见
 [`AstrariaX/Ark-codex-skill`](https://github.com/AstrariaX/Ark-codex-skill)，
 这个仓库是它的 WorkBuddy 分叉。
